@@ -1,0 +1,43 @@
+body {
+    background-color: skyblue;
+    background-size: fixed;
+    background-repeat: no-repeat;
+  }
+  .calendar {
+    background-image: url("Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 800px;
+    margin: 5% 5%;
+  }
+  .month {
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: white;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+  }
+  table,
+  th,
+  td {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 27px;
+    font-family: sans-serif;
+    color: white;
+    border-collapse: collapse;
+    border: 1px solid white;
+  }
+  tr,
+  th,
+  td {
+    padding: 15px;
+  }
+  td:hover {
+    background: blue;
+  }
+  
